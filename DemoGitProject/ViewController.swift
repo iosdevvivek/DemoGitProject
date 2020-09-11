@@ -37,8 +37,12 @@ class ViewController: UIViewController {
                      self.view.addSubview(myFirstButton4)
         
         let myFirstButton5 = UIButton()
-                           myFirstButton4 .setTitle("Firstbutton", for: .normal)
+                           myFirstButton5 .setTitle("Firstbutton", for: .normal)
                             self.view.addSubview(myFirstButton4)
+        
+        let myFirstButton6 = UIButton()
+                               myFirstButton6 .setTitle("Firstbutton", for: .normal)
+                                self.view.addSubview(myFirstButton4)
         
     }
 
