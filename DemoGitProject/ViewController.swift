@@ -25,20 +25,7 @@ class ViewController: UIViewController {
         myFirstButton .setTitle("Firstbutton", for: .normal)
          self.view.addSubview(myFirstButton)
         
-        let myFirstButton2 = UIButton()
-        myFirstButton2 .setTitle("Firstbutton", for: .normal)
-         self.view.addSubview(myFirstButton2)
-        
-        let myFirstButton3 = UIButton()
-               myFirstButton3 .setTitle("Firstbutton", for: .normal)
-                self.view.addSubview(myFirstButton3)
-        let myFirstButton4 = UIButton()
-                    myFirstButton4 .setTitle("Firstbutton", for: .normal)
-                     self.view.addSubview(myFirstButton4)
-        
-        let myFirstButton5 = UIButton()
-                           myFirstButton5 .setTitle("Firstbutton", for: .normal)
-                            self.view.addSubview(myFirstButton4)
+      
         
       
         
