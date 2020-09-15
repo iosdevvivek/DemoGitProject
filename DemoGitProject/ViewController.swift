@@ -40,20 +40,21 @@ class ViewController: UIViewController {
                            myFirstButton5 .setTitle("Firstbutton", for: .normal)
                             self.view.addSubview(myFirstButton4)
         
-        let myFirstButton6 = UIButton()
-                               myFirstButton6 .setTitle("Firstbutton", for: .normal)
-                                self.view.addSubview(myFirstButton4)
+      
         
-        //==================
+        usingTheTestStruct()
+    }
+    
+    
+ func usingTheTestStruct() {
+        
+    let obj = testStruct(name: "Vivek", age: 25, Salary: 25000)
+    
+    print(obj.name)
+    print(obj.age)
+    print(obj.Salary)
         
         
-             let myFirstButton7 = UIButton()
-                                    myFirstButton7 .setTitle("Firstbutton", for: .normal)
-                                     self.view.addSubview(myFirstButton4)
-        
-             let myFirstButton8 = UIButton()
-                                    myFirstButton7 .setTitle("Firstbutton", for: .normal)
-                                     self.view.addSubview(myFirstButton4)
         
     }
 
